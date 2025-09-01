@@ -5,8 +5,7 @@
 
 #define NAV_L 1
 #define NUM_L 2
-#define SYM_L 3
-#define FN_L  4
+#define FN_L  3
 
 // Tap 설정
 &lt { quick_tap_ms = <200>; };
@@ -52,9 +51,9 @@
         nav_layer {
             label = "Nav";
             bindings = <
-                &none      &none      &none      &none       &none      &none      &none      &none      &none      &none      &none      &none
-                &none      &none      &none      &none       &none      &none      &none      &none      &none      &none      &none      &none
-                &none      &none      &none      &none       &none      &none      &none      &none      &none      &none      &none      &none
+                &kp TILDE  &none      &none      &none       &none      &none      &none      &none      &none      &kp MINUS  &kp PLUS   &none
+                &kp TAB    &none      &none      &none       &none      &none      &none      &none      &none      &kp LBKT   &kp RBKT   &kp BSLH
+                &none      &none      &none      &none       &none      &none      &none      &none      &none      &none      &kp QUOT   &none
                 &none      &none      &none      &none       &none      &none      &none      &none      &none      &none      &none      &none
             >;
         };
@@ -66,16 +65,6 @@
                 &none      &none      &none      &none       &none      &none       &none      &none      &none      &none      &none      &none
                 &none      &none      &none      &none       &none      &none       &none      &none      &none      &none      &none      &none
                 &none      &none      &none      &none       &none      &none       &none      &none      &none      &none      &none      &none
-            >;
-        };
-
-        sym_layer {
-            label = "Sym";
-            bindings = <
-                &none      &kp LBRC   &kp AMPS   &kp STAR    &kp LPAR     &kp RBRC     &none      &none     &none      &none      &none      &kp DEL
-                &none      &kp COLON  &kp DLLR   &kp PRCNT   &kp CARET    &kp PLUS     &none      &none     &none      &kp RPAR   &none      &none
-                &none      &kp TILDE  &kp EXCL   &kp AT      &kp HASH     &kp PIPE     &none      &none     &none      &none      &none      &none
-                &none      &none      &none      &none       &none        &none        &none      &none     &none      &none      &none      &none
             >;
         };
 
