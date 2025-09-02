@@ -52,7 +52,7 @@
             label = "Nav";
             bindings = <
                 &kp TILDE  &none      &none      &none       &none      &none      &none      &none      &none      &kp MINUS  &kp PLUS   &none
-                &kp none   &none      &none      &none       &none      &none      &none      &none      &none      &kp LBKT   &kp RBKT   &kp BSLH
+                &none      &none      &none      &none       &none      &none      &none      &none      &none      &kp LBKT   &kp RBKT   &kp BSLH
                 &kp LSHFT  &none      &none      &none       &none      &none      &none      &none      &none      &none      &kp QUOT   &kp RSHFT
                 &none      &none      &none      &none       &none      &none      &none      &none      &none      &none      &none      &none
             >;
