@@ -53,7 +53,7 @@
             bindings = <
                 &kp TILDE  &none      &none      &none       &none      &none      &none      &none      &none      &kp MINUS  &kp PLUS   &none
                 &kp TAB    &none      &none      &none       &none      &none      &none      &none      &none      &kp LBKT   &kp RBKT   &kp BSLH
-                &none      &none      &none      &none       &none      &none      &none      &none      &none      &none      &kp QUOT   &none
+                &kp LSHFT  &none      &none      &none       &none      &none      &none      &none      &none      &none      &kp QUOT   &kp RSHFT
                 &none      &none      &none      &none       &none      &none      &none      &none      &none      &none      &none      &none
             >;
         };
@@ -63,7 +63,7 @@
             bindings = <
                 &none      &kp N1     &kp N2     &kp N3      &kp N4     &kp N5      &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &none
                 &none      &none      &none      &none       &none      &none       &none      &none      &none      &none      &none      &none
-                &none      &none      &none      &none       &none      &none       &none      &none      &none      &none      &none      &none
+                &none      &none      &none      &none       &none      &none       &none      &none      &none      &none      &none      &kp RSHFT
                 &none      &none      &none      &none       &none      &none       &none      &none      &none      &none      &none      &none
             >;
         };
@@ -73,8 +73,8 @@
             bindings = <
                 &kp F1     &kp F2     &kp F3     &kp F4      &kp F5     &kp F6      &kp F7     &kp F8     &kp F9     &kp F10    &kp F11    &kp F12
                 &none      &none      &none      &none       &none      &none       &none      &none      &none      &none      &none      &none
-                &none      &none      &none      &none       &none      &none       &none      &none      &none      &none      &none      &bt BT_CLR
-                &none      &none      &none      &none       &none      &none       &none      &none      &none      &none      &none      &bootloader
+                &none      &none      &none      &none       &none      &none       &none      &none      &none      &none      &none      &none
+                &none      &none      &none      &none       &none      &none       &none      &none      &none      &none      &bt BT_CLR &bootloader
             >;
         };
 
